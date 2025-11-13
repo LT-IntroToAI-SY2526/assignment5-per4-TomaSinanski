@@ -22,11 +22,12 @@ After completing the assignment, answer the following reflection questions:
 ## Reflection Questions
 
 1. What are some things that you learned through this assignment? Think about the concepts of backtracking, constraint satisfaction, and search algorithms. Were there any particular challenges you faced while implementing the Board class methods or the DFS/BFS functions? How did you overcome them?
-
+I learned how and where recursion can be used past simple functions in the solver functions. This was very interesting and complicated and I had to look up resources such as W3 schools and some ai along with help from friends in order to make sure my syntax and logic was correct.
 
 
 2. How can you apply what you learned in this assignment to future programs or projects? Consider other types of problems that involve searching through possibilities, making decisions, and backtracking when those decisions don't work out. Can you think of real-world scenarios where DFS or BFS might be useful? What about other constraint satisfaction problems?
-
+I could use similar functions to DFS and BFS to solve other problems with a set number of possibilites. A real world scenario for DFS is something like google maps where a route needs to be found between two points. The satisfaction problems could be used in something that has a lot of variable such as a seating chart.
 
 
 3. Explain how the Stack and Queue classes work and why they are important for DFS and BFS algorithms. Describe the difference between LIFO (Last In First Out) and FIFO (First In First Out) data structures. How does using a Stack versus a Queue change the way the search algorithm explores possible solutions? Why is one data structure better suited for depth-first search and the other for breadth-first search?
+Stack is a LIFO data struture, similar to a stack of books. A queue is a FIFO data structure. The difference between BFS and DFS is how they explore each possibility. In DFS you go deep into a path until it doesn't work while in BFS you go level by level. DFS is better for stack because new states are added to one path and BFS is better for queue because it explores the earlier things as it follows FIFO which is how BFS works.
